@@ -2,7 +2,7 @@
 module.exports = {
   title: 'Mon Site',
   tagline: 'Dinosaurs are cool',
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://docusaurus-site-iota.vercel.app/',
   baseUrl: '/',
   onBrokenLinks: 'log',
   onBrokenMarkdownLinks: 'warn',
@@ -25,7 +25,7 @@ module.exports = {
         },
         { to: '/', label: 'Blog', position: 'left' },
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/DavidCouronne/docusaurus-site',
           label: 'GitHub',
           position: 'right',
         },
@@ -69,7 +69,7 @@ module.exports = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/DavidCouronne/docusaurus-site',
             },
           ],
         },
@@ -84,12 +84,12 @@ module.exports = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: 'https://github.com/facebook/docusaurus/edit/master/website/',
+          editUrl: 'https://github.com/DavidCouronne/docusaurus-site/edit/master/website/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
-          editUrl: 'https://github.com/facebook/docusaurus/edit/master/website/blog/',
+          editUrl: 'https://github.com/DavidCouronne/docusaurus-site/edit/master/website/blog/',
           path: './blog',
           routeBasePath: '/', // Set this value to '/'.
         },

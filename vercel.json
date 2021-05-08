@@ -44,6 +44,10 @@
         {
           "key": "Referrer-Policy",
           "value": "strict-origin no-referrer-when-downgrade"
+        },
+        {
+          "key": "Permissions-Policy",
+          "value": "geolocation=(self 'https://example.com'), microphone=()"
         }
       ]
     }

@@ -68,12 +68,12 @@ module.exports = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: 'https://github.com/DavidCouronne/docusaurus-site/edit/main/docs/',
+          editUrl: 'https://github.com/DavidCouronne/docusaurus-site/edit/main/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
-          editUrl: 'https://github.com/DavidCouronne/docusaurus-site/edit/main/blog/',
+          editUrl: 'https://github.com/DavidCouronne/docusaurus-site/edit/main/',
           path: './blog',
           routeBasePath: '/', // Set this value to '/'.
         },

@@ -74,7 +74,7 @@ module.exports = {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl: 'https://github.com/DavidCouronne/docusaurus-site/edit/main/',
-          path: './blog',
+          // path: './blog',
           routeBasePath: '/', // Set this value to '/'.
         },
         theme: {
